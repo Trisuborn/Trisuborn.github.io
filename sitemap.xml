@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://trisuborn.github.io/2021/02/01/lvgl-course3/</loc>
+    
+    <lastmod>2021-02-02</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://trisuborn.github.io/download/index.html</loc>
     
     <lastmod>2021-02-02</lastmod>
@@ -31,13 +38,6 @@
   
   <url>
     <loc>http://trisuborn.github.io/tags/index.html</loc>
-    
-    <lastmod>2021-02-02</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://trisuborn.github.io/2021/02/01/lvgl-course3/</loc>
     
     <lastmod>2021-02-02</lastmod>
     
