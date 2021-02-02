@@ -2,6 +2,19 @@
 <html lang="zh-Hans">
 
 <head>
+    <script src="<%- theme.libs.js.typed %>"></script> //引入js文件
+    <script>
+        var options = {
+            strings: [' <%- config.description %>', ' <%- config.descriptionEN %>'],
+            typeSpeed: 120, //打印的速度。数值越大，速度越慢
+            loop: true, //开启循环
+            loopCount: Infinity, //设置循环次数，值为：Infinity，也可以使用数值
+            backSpeed: 20, //延迟时间后才后退，值越大，延迟的时间就越长
+            cursorChar: '^' //光标的符号，比如：
+        };
+        var typed = new Typed('#description', options);
+    </script>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -199,20 +212,6 @@
     <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script>
     <script>L2Dwidget.init({ "log": false, "pluginJsPath": "lib/", "pluginModelPath": "assets/", "pluginRootPath": "live2dw/", "tagMode": false });</script>
     <script>'use strict'; 'serviceWorker' in navigator && navigator.serviceWorker.register('service-worker.js').then(function (a) { a.onupdatefound = function () { var b = a.installing; b.onstatechange = function () { switch (b.state) { case 'installed': navigator.serviceWorker.controller ? console.log('New or updated content is available.') : console.log('Content is now available offline!'); break; case 'redundant': console.error('The installing service worker became redundant.'); } } } }).catch(function (a) { console.error('Error during service worker registration:', a) });
-    </script>
-
-
-    <script src="<%- theme.libs.js.typed %>"></script> //引入js文件
-    <script>
-        var options = {
-            strings: [' <%- config.description %>', ' <%- config.descriptionEN %>'],
-            typeSpeed: 120, //打印的速度。数值越大，速度越慢
-            loop: true, //开启循环
-            loopCount: Infinity, //设置循环次数，值为：Infinity，也可以使用数值
-            backSpeed: 20, //延迟时间后才后退，值越大，延迟的时间就越长
-            cursorChar: '^' //光标的符号，比如：
-        };
-        var typed = new Typed('#description', options);
     </script>
 
 </body>
