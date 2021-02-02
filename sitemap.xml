@@ -2,63 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/2021/02/01/lvgl_course4/</loc>
+    <loc>http://trisuborn.github.io/2021/02/01/lvgl_course4/</loc>
     
     <lastmod>2021-02-02</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/archives/index.html</loc>
+    <loc>http://trisuborn.github.io/archives/index.html</loc>
     
     <lastmod>2021-02-02</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/categories/index.html</loc>
+    <loc>http://trisuborn.github.io/categories/index.html</loc>
     
     <lastmod>2021-02-02</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/tags/index.html</loc>
+    <loc>http://trisuborn.github.io/tags/index.html</loc>
     
     <lastmod>2021-02-02</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/2021/02/01/lvgl-course3/</loc>
+    <loc>http://trisuborn.github.io/2021/02/01/lvgl-course3/</loc>
     
     <lastmod>2021-02-02</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/2021/02/01/lvgl-course2/</loc>
+    <loc>http://trisuborn.github.io/2021/02/01/lvgl-course2/</loc>
     
     <lastmod>2021-02-02</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/2021/02/01/lvgl-course1/</loc>
+    <loc>http://trisuborn.github.io/2021/02/01/lvgl-course1/</loc>
     
     <lastmod>2021-02-02</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/gallery/index.html</loc>
+    <loc>http://trisuborn.github.io/gallery/index.html</loc>
     
     <lastmod>2021-02-02</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/about/index.html</loc>
+    <loc>http://trisuborn.github.io/about/index.html</loc>
     
     <lastmod>2021-02-01</lastmod>
     
@@ -66,7 +66,7 @@
   
 
   <url>
-    <loc>http://example.com/</loc>
+    <loc>http://trisuborn.github.io/</loc>
     <lastmod>2021-02-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -74,7 +74,7 @@
 
   
   <url>
-    <loc>http://example.com/tags/LVGL/</loc>
+    <loc>http://trisuborn.github.io/tags/LVGL/</loc>
     <lastmod>2021-02-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -83,7 +83,7 @@
 
   
   <url>
-    <loc>http://example.com/categories/LVGL/</loc>
+    <loc>http://trisuborn.github.io/categories/LVGL/</loc>
     <lastmod>2021-02-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
