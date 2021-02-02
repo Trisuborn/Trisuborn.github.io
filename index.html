@@ -2,8 +2,8 @@
 <html lang="zh-Hans">
 
 <head>
-    <script>
-        var options = {
+    <!-- <script>
+        var param = {
             strings: [' <%- config.description %>', ' <%- config.descriptionEN %>'],
             typeSpeed: 120, //打印的速度。数值越大，速度越慢
             loop: true, //开启循环
@@ -11,12 +11,12 @@
             backSpeed: 20, //延迟时间后才后退，值越大，延迟的时间就越长
             cursorChar: '^' //光标的符号，比如：
         };
-        var typed = new Typed('#description', options);
-    </script>
+        new Typed('#description', param);
+    </script> -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="An amateur of embedded linux">
+    <!-- <meta name="description" content="An amateur of embedded linux"> -->
     <meta name="keywords" content="Embedded,Linux">
     <meta name="author" content="Trisuborn">
     <meta name="copyright" content="Trisuborn">
@@ -222,6 +222,5 @@
     </script>
     <script>'use strict'; 'serviceWorker' in navigator && navigator.serviceWorker.register('service-worker.js').then(function (a) { a.onupdatefound = function () { var b = a.installing; b.onstatechange = function () { switch (b.state) { case 'installed': navigator.serviceWorker.controller ? console.log('New or updated content is available.') : console.log('Content is now available offline!'); break; case 'redundant': console.error('The installing service worker became redundant.'); } } } }).catch(function (a) { console.error('Error during service worker registration:', a) });
     </script>
-</body>
-
-</html>
+<script>'use strict';'serviceWorker'in navigator&&navigator.serviceWorker.register('service-worker.js').then(function(a){a.onupdatefound=function(){var b=a.installing;b.onstatechange=function(){switch(b.state){case'installed':navigator.serviceWorker.controller?console.log('New or updated content is available.'):console.log('Content is now available offline!');break;case'redundant':console.error('The installing service worker became redundant.');}}}}).catch(function(a){console.error('Error during service worker registration:',a)});
+</script></body></html>
