@@ -2,6 +2,8 @@
 <html lang="zh-Hans">
 
 <head>
+    <div class="typed-test">
+    </div>
     <script>
         var param = {
             strings: ['Hello'],
@@ -11,8 +13,10 @@
             backSpeed: 20, //延迟时间后才后退，值越大，延迟的时间就越长
             cursorChar: '^' //光标的符号，比如：
         };
-        new Typed('#description', param);
+        var a = document.getElementsByClassName('typed-test');
+        new Typed(a, param);
     </script>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -48,8 +52,6 @@
         } </script>
     <meta name="generator" content="Hexo 5.3.0">
     <link rel="alternate" href="/atom.xml" title="Trisuborn" type="application/atom+xml">
-    <span id="box3"></span>
-    <script type="text/javascript" src="https://cdn.bootcss.com/typed.js/2.0.5/typed.js"></script>
 </head>
 
 <body><canvas class="fireworks"></canvas><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i>
