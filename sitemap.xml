@@ -9,7 +9,14 @@
   </url>
   
   <url>
-    <loc>http://trisuborn.github.io/download/index.html</loc>
+    <loc>http://trisuborn.github.io/2021/02/01/lvgl-course1/</loc>
+    
+    <lastmod>2021-02-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://trisuborn.github.io/2021/02/01/lvgl-course2/</loc>
     
     <lastmod>2021-02-02</lastmod>
     
@@ -17,6 +24,13 @@
   
   <url>
     <loc>http://trisuborn.github.io/2021/02/01/lvgl_course4/</loc>
+    
+    <lastmod>2021-02-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://trisuborn.github.io/about/index.html</loc>
     
     <lastmod>2021-02-02</lastmod>
     
@@ -37,21 +51,7 @@
   </url>
   
   <url>
-    <loc>http://trisuborn.github.io/tags/index.html</loc>
-    
-    <lastmod>2021-02-02</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://trisuborn.github.io/2021/02/01/lvgl-course2/</loc>
-    
-    <lastmod>2021-02-02</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://trisuborn.github.io/2021/02/01/lvgl-course1/</loc>
+    <loc>http://trisuborn.github.io/download/index.html</loc>
     
     <lastmod>2021-02-02</lastmod>
     
@@ -65,9 +65,9 @@
   </url>
   
   <url>
-    <loc>http://trisuborn.github.io/about/index.html</loc>
+    <loc>http://trisuborn.github.io/tags/index.html</loc>
     
-    <lastmod>2021-02-01</lastmod>
+    <lastmod>2021-02-02</lastmod>
     
   </url>
   
